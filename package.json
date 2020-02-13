@@ -1,6 +1,6 @@
 {
-  "name": "scim-query-filter-parser",
-  "version": "2.0.4",
+  "name": "@latticehr/scim-query-filter-parser",
+  "version": "1.0.0",
   "description": "Parser for SCIM V2 filters and paths",
   "main": "dist/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/the-control-group/scim-query-filter-parser-js.git"
+    "url": "git+https://github.com/jaylattice/scim-query-filter-parser-js.git"
   },
   "keywords": [
     "scim",
@@ -28,12 +28,12 @@
     "rfc7644",
     "rfc7643"
   ],
-  "author": "Mike Marcacci <mike.marcacci@thecontrolgroup.com>",
+  "author": "Jay Patel <jay@lattice.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/the-control-group/scim-query-filter-parser-js/issues"
+    "url": "https://github.com/jaylattice/scim-query-filter-parser-js/issues"
   },
-  "homepage": "https://github.com/the-control-group/scim-query-filter-parser-js#readme",
+  "homepage": "https://github.com/jaylattice/scim-query-filter-parser-js#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.7.0",
     "@typescript-eslint/parser": "^2.7.0",
