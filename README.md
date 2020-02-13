@@ -1,4 +1,8 @@
-[![Build Status](https://travis-ci.org/the-control-group/scim-query-filter-parser-js.svg?branch=master)](https://travis-ci.org/the-control-group/scim-query-filter-parser-js)
+[![Build Status](https://travis-ci.org/jaylattice/scim-query-filter-parser-js.svg?branch=master)](https://travis-ci.org/jaylattice/scim-query-filter-parser-js)
+
+## preface
+
+This library was forked from [scim-query-filter-parser](https://github.com/the-control-group/scim-query-filter-parser-js).
 
 ## tl;dr
 
