@@ -14,9 +14,8 @@ export function patchPath(
       break;
 
     case ids.SEM_POST:
-      const { attributePath, attributeGroup, attributePathSegment } = yard.post(
-        "patchPath"
-      );
+      const { attributePath, attributeGroup, attributePathSegment } =
+        yard.post("patchPath");
 
       const children = [...attributePath, ...attributeGroup];
 
@@ -30,7 +29,7 @@ export function patchPath(
         yard.tracks.patchPath.push({
           path: attributePath[0].join("."),
           subpath: null,
-          filter: null
+          filter: null,
         });
       } else {
         const nestedAttributePath = attributeGroup[0][0];
@@ -39,7 +38,7 @@ export function patchPath(
           filter: attributeGroup[0][1],
           subpath: attributePathSegment.length
             ? attributePathSegment.reverse().join(".")
-            : null
+            : null,
         });
       }
 

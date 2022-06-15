@@ -14,11 +14,8 @@ export function infixAssertion(
       break;
 
     case ids.SEM_POST:
-      const {
-        attributePath,
-        infixAssertionOperator,
-        infixAssertionValue
-      } = yard.post("infixAssertion");
+      const { attributePath, infixAssertionOperator, infixAssertionValue } =
+        yard.post("infixAssertion");
 
       if (attributePath.length !== 1) {
         throw new Error(
