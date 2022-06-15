@@ -1,6 +1,6 @@
 {
-  "name": "@latticehr/scim-query-filter-parser",
-  "version": "1.0.0",
+  "name": "@cyrilld/scim-query-filter-parser",
+  "version": "2.0.4",
   "description": "Parser for SCIM V2 filters and paths",
   "main": "dist/index.js",
   "scripts": {
@@ -35,16 +35,16 @@
   },
   "homepage": "https://github.com/jaylattice/scim-query-filter-parser-js#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.7.0",
-    "@typescript-eslint/parser": "^2.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
     "apg": "^3.1.1",
-    "ava": "^2.4.0",
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "nodemon": "^1.19.4",
-    "prettier": "^1.19.1",
-    "typescript": "^3.7.2"
+    "ava": "^4.3.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.7.0",
+    "typescript": "^4.7.3"
   },
   "engines": {
     "node": ">=8"

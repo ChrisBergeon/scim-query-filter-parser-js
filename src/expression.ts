@@ -19,14 +19,14 @@ export function expression(
         attributeGroup,
         prefixLogicalExpression,
         postfixAssertion,
-        infixAssertion
+        infixAssertion,
       } = yard.post("expression");
 
       const children = [
         ...precedenceGroup,
         ...prefixLogicalExpression,
         ...postfixAssertion,
-        ...infixAssertion
+        ...infixAssertion,
       ];
 
       if (attributeGroup.length) {

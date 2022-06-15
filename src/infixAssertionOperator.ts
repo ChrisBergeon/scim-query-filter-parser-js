@@ -168,7 +168,7 @@ const map = {
   gt,
   ge,
   lt,
-  le
+  le,
 };
 
 export function infixAssertionOperator(

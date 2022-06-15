@@ -6,7 +6,7 @@ function not(expression: (data: any) => boolean, data: any): boolean {
 }
 
 const map = {
-  not
+  not,
 };
 
 export function prefixLogicalExpressionOperator(

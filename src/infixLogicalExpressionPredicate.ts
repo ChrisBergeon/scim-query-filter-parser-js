@@ -32,7 +32,7 @@ export function infixLogicalExpressionPredicate(
 
       yard.tracks.infixLogicalExpressionPredicate.push([
         infixLogicalExpressionOperator[0],
-        expression[0]
+        expression[0],
       ]);
       break;
   }

@@ -6,13 +6,13 @@ export function traverse(path: string[], resource: any): unknown[] {
 
   if (Array.isArray(resource)) {
     return resource
-      .map(resource => traverse(path, resource))
+      .map((resource) => traverse(path, resource))
       .reduce((l, r) => [...l, ...r]);
   }
 
   const [segment, ...remaining] = path;
   const key = Object.keys(resource).find(
-    key => collator.compare(segment, key) === 0
+    (key) => collator.compare(segment, key) === 0
   );
 
   if (key === undefined) {

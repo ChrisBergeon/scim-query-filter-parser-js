@@ -87,7 +87,7 @@ export function infixLogicalExpression(
       }
 
       yard.tracks.infixLogicalExpression.push((data: any) =>
-        dnf.some(e => e(data))
+        dnf.some((e) => e(data))
       );
 
       break;

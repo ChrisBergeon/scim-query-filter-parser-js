@@ -54,7 +54,7 @@ parser.ast.callbacks = {
   infixAssertionOperator,
   infixAssertionValue,
   attributePath,
-  attributePathSegment
+  attributePathSegment,
 };
 
 export function compilePath(input: string): SimplePath | FilterPath {

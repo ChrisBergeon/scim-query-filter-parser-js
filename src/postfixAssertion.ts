@@ -14,9 +14,8 @@ export function postfixAssertion(
       break;
 
     case ids.SEM_POST:
-      const { attributePath, postfixAssertionOperator } = yard.post(
-        "postfixAssertion"
-      );
+      const { attributePath, postfixAssertionOperator } =
+        yard.post("postfixAssertion");
 
       if (attributePath.length !== 1) {
         throw new Error(

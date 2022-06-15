@@ -6,11 +6,11 @@ import { traverse } from "./util";
 // String.prototype.localeCompare()
 
 function pr(path: string[], data: any): boolean {
-  return traverse(path, data).some(x => x !== undefined);
+  return traverse(path, data).some((x) => x !== undefined);
 }
 
 const map = {
-  pr
+  pr,
 };
 
 export function postfixAssertionOperator(
